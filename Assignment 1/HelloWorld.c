@@ -4,7 +4,7 @@ void mssg()
 {
     int n;
     n = omp_get_thread_num();
-    printf("\n Hello World no %d \n", n);
+    printf("\n Hello World from no %d \n", n);
 }
 int main()
 {
